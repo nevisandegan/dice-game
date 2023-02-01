@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: B Yekan;
+    height: 100vh;
+    background: linear-gradient(to top right, rgba(153, 24, 24, 0.836), rgba(95, 11, 35, 0.868));
+}
+
+.container {
+    width: 804px;
+    margin: 80px auto;
+    height: 80%;
+    background-color: rgb(246, 237, 237, 0.5);
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+
+
+}
+
+.player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    padding: 0px 150px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.player-text {
+    font-size: 35px;
+    color: rgb(125, 6, 38);
+
+}
+
+.player-num {
+    color: rgb(125, 6, 38);
+    font-size: 60px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.current {
+    width: 142px;
+    height: 100px;
+    background-color: rgb(125, 6, 38);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    overflow: hidden;
+
+}
+
+.current-text {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.current-num {
+    font-size: 25px;
+
+}
+
+.btn {
+    position: absolute;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255, 0.7);
+    padding: 10px 40px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.btn:hover {
+    opacity: 0.5;
+}
+
+.img {
+    position: absolute;
+    width: 94px;
+    height: 94px;
+    top: 200px;
+}
+
+.btn-again {
+    top: 40px;
+
+}
+
+.btn-roll {
+    top: 350px;
+}
+
+.btn-hold {
+    top: 410px;
+}
+
+.player-bk {
+    background-color: rgb(235, 233, 233, 0.6);
+}
+
+.player-win {
+
+    background-color: rgba(84, 85, 84);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.2);
+    z-index: 1;
+    transition: transform 3s ease-out;
+
+}
+
+.a {
+    z-index: 2;
+}
